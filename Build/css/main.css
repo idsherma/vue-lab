@@ -1,0 +1,94 @@
+body, html {
+  font-family: 'PT Serif', serif;
+}
+
+.bgimg-4 {
+    background-image: url(http://s1.r29static.com//bin/public/295/x/1864436/image.png);
+    min-height: 100vh;
+}
+
+.bgimg-5 {
+    background-image: url(http://s3.r29static.com//bin/public/700/x/1864437/image.png);
+    min-height: 100%;
+}
+
+.bgimg-7 {
+  background-image: url("https://static.pexels.com/photos/34950/pexels-photo.jpg");
+  min-height: 100%;
+}
+
+
+.special, h1, h2, h3, li, button.submit, .quant-text {
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-size: 12px;
+}
+
+.clickity {
+  border: 2px solid;
+}
+
+li {
+  list-style: none;
+  display: inline-block;
+}
+
+input {
+  background: #eee;
+}
+
+button {
+  border: none;
+  border-radius: 1000px;
+  padding: 8px 13px;
+  outline: none;
+  cursor: pointer;
+}
+button.inc {
+  background: white;
+  color: black;
+}
+button.submit {
+  background: black;
+  color: white;
+  margin-left: 20px;
+  padding: 12px 14px;
+  width: 240px;
+  transition: 0.25s all ease-in;
+}
+button.submit:hover {
+  opacity: 0.8;
+  transition: 0.25s all ease-out;
+}
+
+.quant-text {
+  display: inline-block;
+  text-align: center;
+  width: 140px;
+  padding: 8px;
+  padding: 8px;
+}
+
+.quantity {
+  border: 2px solid black;
+  width: 235px;
+  padding-left: 3px;
+  border-radius: 1000px;
+  background: #fff;
+  margin-left: 20px;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  width: 280px;
+  height: 400px;
+  justify-content: space-around;
+  background: #eee;
+  padding: 20px 10px;
+  margin: 30px;
+}
+.item img {
+  align-self: center;
+}
